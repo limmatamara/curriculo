@@ -1,0 +1,13 @@
+@media only screen and (max-device-width: 500px){
+    header .cabecalho {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 9000px){
+    .ladoDireito {
+        width: 80%;
+    }
+}
