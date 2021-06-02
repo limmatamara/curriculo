@@ -1,66 +1,55 @@
-.container {
-    display: flex;
-    justify-content: space-between;
-   height: 100%;
-   
-}
-
-
-.cabecalho {
-    margin-left: 2%;
-    width: 70%;
-    height: 100%;
-    background-color: rgba(135,206,250);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 5px;
-    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
-      
-}
-
-.nome {
-    margin-top: 5%;
-}
-
-
-.cabecalho .foto img {
-    margin-left: 35%;
-    width: 25%;
-    border-radius: 50%;
-    margin-top: 1.5em;
-    
-}
-
-
-.ladoDireito {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-
-
-}
-
-
-.secao {
-    background-color: rgba(102,205,170);
-    display: flex;
-    margin-bottom: 3%;
-    flex-direction: column;
-    justify-content: center;
-    width: 90%;
-    border-radius: 5px;
-    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.secao h2 {
-    text-align: center;
-}
-
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
 
 }
+
+h2, h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.caixa {
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.centralizacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho {
+    margin-left: 2%;
+    width: 70%;
+    max-width: 1000px;
+    color: rgb(18, 87, 133);
+    background-color: rgba(166, 216, 247, 0.877);
+}
+
+.nome {
+    margin-top: 7px;
+    }
+
+.cabecalho .foto img {
+    margin-left: 35%;
+    width: 30%;
+    border-radius: 50%;
+    margin-top: 1.5em;
+    
+}
+
+.secao {
+    background-color: rgba(132, 223, 223, 0.87);
+    color:rgb(32, 91, 131);
+    margin-bottom: 3%;
+    width: 90%;
+    text-align: left;
+   }
+
