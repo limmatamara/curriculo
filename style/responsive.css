@@ -1,15 +1,9 @@
-@media only screen and (max-device-width: 360px){
-    header .cabecalho {
-        display: flex;
-        flex-direction: column;
-    }
-
-}
-
-@media screen and (min-width: 360px){
+@media screen and (max-width:500px) {
     .cabecalho {
         width: 100%;
     }
+
+    .ladoDireito {
+        width: 100%;
+    }
 }
-
-
