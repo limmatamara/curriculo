@@ -28,11 +28,13 @@ h2, h1 {
 
 .cabecalho {
     margin-left: 2%;
+    margin-bottom: 3%;
     width: 28%;
+    max-height: 800px;
     max-width: 1000px;
     color: rgb(18, 87, 133);
     background-color: rgba(166, 216, 247, 0.877);
-}
+    }
 
 .nome {
     margin-top: 7px;
