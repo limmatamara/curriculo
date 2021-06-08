@@ -1,6 +1,7 @@
 @media screen and (max-width:500px) {
     .cabecalho {
         width: 100%;
+        margin: 5%;
     }
 
     .ladoDireito {

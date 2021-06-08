@@ -27,8 +27,7 @@ h2, h1 {
 }
 
 .cabecalho {
-    margin-left: 2%;
-    margin-bottom: 3%;
+   margin-left: 10px;
     width: 28%;
     max-height: 800px;
     max-width: 1000px;
