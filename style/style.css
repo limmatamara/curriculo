@@ -49,6 +49,13 @@ h2, h1 {
     
 }
 
+.fas, .fab{
+    margin-right: 10px;
+}
+.lista {
+    list-style: none;
+}
+
 .contato {
     font-style: bold;
 }
