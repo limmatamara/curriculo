@@ -35,7 +35,6 @@ h2, h1 {
     color: rgb(18, 87, 133);
     background-color: rgba(166, 216, 247, 0.877);
 }
-
  
 .nome {
     margin-top: 7px;
@@ -54,6 +53,16 @@ h2, h1 {
 }
 .lista {
     list-style: none;
+}
+
+.lista img {
+    width: 10%;
+    border-radius:40%;
+    margin-right: 2%;
+}
+
+.ufrpe img {
+    width: 5%;
 }
 
 .contato {
