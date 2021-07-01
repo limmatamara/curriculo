@@ -1,18 +1,14 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
-
-}
-
-h2, h1 {
-    text-align: center;
-}
-
-.container {
     display: flex;
     justify-content: space-between;
     height: 100%;
     flex-flow: wrap;
+}
+
+h2, h1 {
+    text-align: center;
 }
 
 .caixa {
@@ -30,38 +26,42 @@ h2, h1 {
     margin-left: 2%;
     margin-bottom: 3%;
     width: 28%;
+    height: fit-content;
     max-height: 800px;
     max-width: 1000px;
     color: rgb(18, 87, 133);
     background-color: rgba(166, 216, 247, 0.877);
 }
 
-.lista {
+.cabecalho ul {
     list-style: none;
+    padding: 0;
 }
- 
-.nome {
-    margin-top: 7px;
-    }
 
-.cabecalho .foto img {
-    margin-left: 35%;
-    width: 30%;
+.titulos {
+    width: 80%;
+}
+
+.cabecalho img {
+    width: 70%;
     border-radius: 50%;
-    margin-top: 1.5em;
-    
 }
 
 .fas, .fab{
     margin-right: 10px;
 }
 
-.imagem {
+.cabecalho-experiencia {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
-.imagem img {
+.cabecalho-experiencia h1, h2 {
+    text-align: left;
+}
+
+.experiencia img {
     height: 10%;
     width: 20%;
    margin-bottom: 5px;
