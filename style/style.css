@@ -1,10 +1,16 @@
-body {
+.container {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
+    max-width: 1366px;
     display: flex;
     justify-content: space-between;
     height: 100%;
     flex-flow: wrap;
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
 }
 
 h2, h1 {
@@ -21,6 +27,7 @@ h2, h1 {
     flex-direction: column;
     align-items: center;
 }
+
 
 .cabecalho {
     margin-left: 2%;
@@ -43,8 +50,8 @@ h2, h1 {
 }
 
 .cabecalho img {
-    width: 70%;
     border-radius: 50%;
+    max-width: 13rem;
 }
 
 .fas, .fab{
@@ -55,20 +62,36 @@ h2, h1 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 }
 
-.cabecalho-experiencia h1, h2 {
+.cabecalho-experiencia p {
+    margin: 0px;
+}
+
+.cabecalho-experiencia h2 {
+    margin-bottom: 0px;
+}
+
+.experiencia ul {
+    margin-top: 0px;
+}
+
+.secao h2 {
     text-align: left;
+    font-size: 1em;
+}
+
+.secao h1 {
+    font-size: 1.3em;
 }
 
 .experiencia img {
-    height: 10%;
-    width: 20%;
+   width: 12%;
    margin-bottom: 5px;
-   margin-right: 10px;
-   margin-left: 5px;
+   padding: 10px;
     border-radius:50%;
-    align-content: center;
+    align-content: stretch;
 }
 
 .contato {
@@ -80,14 +103,13 @@ h2, h1 {
 }
 
 .formacao img {
-    height:10%;
-    width: 20%;
+    width: 15%;
     margin-bottom: 5px;
-    margin-right: 10px;
-    margin-left: 5px;
+    padding: 10px;
     border-radius: 20%;
-    align-content: center;
+    align-items: stretch;
 }
+
 
 .secao {
     background-color: rgba(132, 223, 223, 0.87);
