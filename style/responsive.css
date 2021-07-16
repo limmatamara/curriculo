@@ -1,4 +1,4 @@
-@media screen and (max-width:500px) {
+@media screen and (max-width:670px) {
     .cabecalho {
         width: 100%;
         margin: 5%;
@@ -7,4 +7,41 @@
     .ladoDireito {
         width: 100%;
     }
+}
+
+@media screen and (max-width: 900px) and (min-width: 671px) {
+    
+    .cabecalho {
+        width: 100%;
+        margin: 0% 10%;
+    }
+
+    .ladoDireito {
+        width: 100%;
+        margin: 5%;
+    }
+
+    .titulos {
+        width: 50%;
+    }
+
+    .dadosProfissionaisEContatos {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contato h2 {
+        display: none;
+    }
+
+    .cabecalho h1 {
+        font-size: 2rem;
+    }
+
+    .fas, .fab{
+        margin-right: 0px;
+     }
+
+
 }

@@ -38,6 +38,7 @@ h2, h1 {
     max-width: 1000px;
     color: rgb(18, 87, 133);
     background-color: rgba(166, 216, 247, 0.877);
+    line-height: 30px;
 }
 
 .cabecalho ul {
@@ -45,8 +46,14 @@ h2, h1 {
     padding: 0;
 }
 
+.dadosProfissionaisEContatos {
+    width: 100%;
+}
+
 .titulos {
     width: 80%;
+    text-align: left;
+    margin-left: 20px;
 }
 
 .cabecalho img {
@@ -75,6 +82,11 @@ h2, h1 {
 
 .experiencia ul {
     margin-top: 0px;
+    list-style-type: square;
+}
+
+.secao {
+    line-height: 30px;
 }
 
 .secao h2 {
@@ -98,6 +110,14 @@ h2, h1 {
     font-style: bold;
 }
 
+.alinharLista .lista {
+    list-style-type: none;
+    max-width: 100%;
+    text-align: left;
+    margin-left: 15px;
+    padding: 0px;
+}
+
 .ladoDireito {
     width: 68%;
 }
@@ -110,7 +130,6 @@ h2, h1 {
     align-items: stretch;
 }
 
-
 .secao {
     background-color: rgba(132, 223, 223, 0.87);
     color:rgb(32, 91, 131);
@@ -118,4 +137,24 @@ h2, h1 {
     width: 90%;
     text-align: left;
    }
+
+.circulofechado {
+    border-radius: 50%;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    background-color: rgb(32, 91, 131);
+    margin-left: 0.5rem;
+}
+
+.circuloaberto {
+    border-radius: 50%;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border: 1px solid rgb(32, 91, 131);
+    margin-left: 0.5rem;
+}
+
+
 
